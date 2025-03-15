@@ -1,8 +1,9 @@
-# React + Vite
+# History Project in ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Its a History page of a trading app.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- We are fetching data from an api and rendered in an component.
+- It has 3 sections first is Positions, second Orders and third is Deals.
+- They are showing us the data related to trades like trade profit, trade date-time, its id, commission, pairs, no. of trades and also sum these.
