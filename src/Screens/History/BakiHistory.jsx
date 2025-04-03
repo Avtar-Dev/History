@@ -20,6 +20,8 @@ const BakiHistory = () => {
     symbol == "" || symbol == "All Symbols"
       ? data?.data?.length
       : data?.data?.filter((arr) => arr.pair == symbol)?.length;
+  console.log("ordnum", data);
+
   return (
     <div className="baki-history">
       <div className="buttons">

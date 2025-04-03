@@ -15,7 +15,7 @@ const DealsTrades = ({ item }) => {
             <div className={item?.side == "BUY" ? "blue" : "red"}>
               {item?.side},
             </div>
-            <div style={{ fontSize: "medium" }}>out</div>
+            <div>out</div>
           </div>
           <div className="entry">
             <div>{item?.volume}</div>

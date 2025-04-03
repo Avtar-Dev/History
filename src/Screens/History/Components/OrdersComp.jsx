@@ -8,7 +8,6 @@ const OrdersComp = ({ data }) => {
   const { symbol } = useSelector((state) => state.globalVal);
   const { sortedData, setSortedData, ordersData, setOrdersData } =
     useContext(SortingContext);
-  console.log("ordersData", ordersData);
 
   useEffect(() => {
     if (data?.length) {
@@ -23,8 +22,6 @@ const OrdersComp = ({ data }) => {
         : sortedData.filter((item) => item.pair === symbol)
     );
   }, [symbol, sortedData]);
-
-  console.log("OrdersComp render");
 
   return (
     <div>

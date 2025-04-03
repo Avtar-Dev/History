@@ -17,7 +17,6 @@ const OrdersTradesIn = ({ item }) => {
         </div>
         <div className="rightOfLeft">
           <div className="date-p">{item?.sl}</div>
-
           <div className="date-p">{item?.tp}</div>
         </div>
       </div>

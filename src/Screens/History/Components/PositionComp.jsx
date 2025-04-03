@@ -1,4 +1,4 @@
-import React, { memo, useContext, useEffect, useState } from "react";
+import React, { memo, useContext, useEffect } from "react";
 import { useSelector } from "react-redux";
 import PositionTop from "./PositionTop";
 import PositionItem from "./PositionItem";
